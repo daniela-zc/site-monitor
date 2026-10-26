@@ -1,0 +1,10 @@
+# Runtime / state
+logs/
+state.db
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
