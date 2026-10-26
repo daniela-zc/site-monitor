@@ -3,6 +3,9 @@ logs/
 state.db
 *.db
 
+# Config (contains private URLs)
+config.yaml
+
 # Python
 __pycache__/
 *.pyc

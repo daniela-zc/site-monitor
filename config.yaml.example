@@ -1,0 +1,12 @@
+timeout: 10
+log_retention_days: 30
+alert_threshold: 2
+# Uncomment and set your Slack Incoming Webhook URL to enable Slack alerts
+slack_webhook_url: ""
+sites:
+  - name: Example Site 1
+    url: https://example.com/
+    enabled: true
+  - name: Example Site 2
+    url: https://example.org/
+    enabled: true
